@@ -17,5 +17,6 @@ int main(){
     rectangle1.setWidth(width);
     
      cout << "The rectangle's area is: " << rectangle1.getArea();
+     return 0;
 
 }
