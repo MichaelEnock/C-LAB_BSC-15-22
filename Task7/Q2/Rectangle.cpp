@@ -4,13 +4,9 @@ Rectangle:: Rectangle(){
     length = 0;
     width = 0;
 }
-
-void Rectangle::setLength(float newLength){
-     length = newLength;
-}
-
-void Rectangle::setWidth(float newWidth){
-       width = newWidth;
+ Rectangle:: Rectangle(float lengthl, float widthl){
+    length = lengthl;
+    width = widthl;
  }
 
 float Rectangle::getWidth(){

@@ -4,10 +4,7 @@ class Rectangle
 {
 public:
     Rectangle();
-
-    void setLength(float newLength);
-
-    void setWidth(float newWidth);
+    Rectangle(float length, float width);
 
     float getWidth();
     float getLength();

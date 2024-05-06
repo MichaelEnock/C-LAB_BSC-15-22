@@ -3,19 +3,18 @@
 
 using namespace std;
 
-int main(){
-    Rectangle rectangle1;
-
-    float length, width;
+int main()
+{    float length, width;
 
     cout << "Enter the  value of Length \n";
     cin >> length;
-    rectangle1.setLength(length);
 
     cout << "Enter the  value of Width \n";
     cin >> width;
-    rectangle1.setWidth(width);
-    
-     cout << "The rectangle's area is: " << rectangle1.getArea();
 
+    Rectangle rectangle1(length, width);
+
+    cout << "The rectangle's area is: " << rectangle1.getArea();
+
+    return 0;
 }
